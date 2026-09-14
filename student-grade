@@ -9,5 +9,5 @@ if Average_mark >= 50:
 else:
     status = "Failed"
 
-print(Student_name,":",Average_mark)
+print(Student_name, ":", Average_mark, "-", status)
 
