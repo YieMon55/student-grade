@@ -1,8 +1,17 @@
-Student_name=input("Enter your name: ")
-English=int(input("Enter mark: "))
-Math=int(input("Enter mark: "))
-number_of_subjects=2
-total_mark=English+Math
-Average_mark = (English + Math)/number_of_subjects
-print(Student_name,":",Average_mark)
+Student_name = input("Enter student name: ")
+English = int(input("Enter first subject mark: "))
+Math = int(input("Enter second subject mark: "))
+
+number_of_subjects = 2
+total_mark = English + Math
+Average_mark = total_mark / number_of_subjects
+
+if Average_mark >= 50:
+    status = "Pass"
+else:
+    status = "Fail"
+
+print("Student Name:", Student_name)
 print("Total Mark:", total_mark)
+print("Average Mark:", Average_mark)
+print("Result:", status)
