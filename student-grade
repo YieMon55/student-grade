@@ -1,0 +1,7 @@
+Student_name=input("Enter your name: ")
+English=int(input("Enter mark: "))
+Math=int(input("Enter mark: "))
+number_of_subjects=2
+Average_mark = (English + Math)/number_of_subjects
+print(Student_name,":",Average_mark)
+
